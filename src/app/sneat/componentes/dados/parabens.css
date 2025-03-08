@@ -1,0 +1,55 @@
+
+.parabens {
+    width: calc(100% - 20px);
+    height: 30%;
+
+    box-sizing: border-box;
+
+    padding: 20px;
+    margin: 10px;
+
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+}
+
+.parabens * {
+    color: #686bfd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parabens p {
+    margin: 20px 0;
+}
+
+.parabens button {
+    transition: 0.3s;
+
+    padding: 5px 30px;
+
+    background-color: transparent;
+    border-color: #686bfd;
+
+    position: absolute;
+    bottom: 20px;
+}
+
+.parabens button:hover {
+    transition: 0.3s;
+
+    color: white;
+    background-color: #686bfd;
+}
+
+.parabens .imagem {
+    height: 100%;
+    aspect-ratio: 1;
+    
+    background-color: lightblue;
+    
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+
+    background: url("./imagens/john.png") no-repeat center / cover;
+}

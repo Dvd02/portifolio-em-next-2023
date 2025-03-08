@@ -1,0 +1,6 @@
+button.quadrado {
+    border: 1px solid black;
+    aspect-ratio: 1;
+    width: 50px;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+div.tabuleiro {
+    display: block;
+    margin: 20px auto;
+    width: min-content;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+div.tabuleiro > div.linha {
+    display: flex;
+}
+
+div.tabuleiro > div.linha > button.quadrado {
+    border: 1px solid black;
+    aspect-ratio: 1;
+    width: 50px;
+    text-align: center;
+}
+
+div.tabuleiro > span.resultado, 
+div.tabuleiro > button.reiniciar {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}

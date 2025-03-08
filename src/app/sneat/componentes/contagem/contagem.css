@@ -1,0 +1,57 @@
+
+.contagem {
+    width: calc(50% - 16px);
+    height: calc(100% - 16px);  
+
+    box-sizing: border-box;
+
+    padding: 8px;
+    margin: 8px;
+
+    background-color: white; 
+    border-radius: 15px;
+    position: relative;
+}
+
+.contagem .imagem {
+    width: 30%;
+    aspect-ratio: 1;
+    border-radius: 8px;
+
+    margin: 10px;
+}
+
+.contagem h2 {
+    margin: 5px 0;
+}
+
+.contagem .configuracoes {
+    width: 18%;
+    aspect-ratio: 1;
+
+    background: url("./imagem/configuracoes.png") no-repeat center / contain;
+
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.contagem .rendimento {
+    color: green;
+}
+
+#perfil {
+    background: url("./imagem/perfil.png") no-repeat center / contain;
+}
+
+#pix {
+    background: url("./imagem/pix.png") no-repeat center / contain;
+}
+
+#transacoes {
+    background: url("./imagem/transacoes.png") no-repeat center / contain;
+}
+
+#vendas {
+    background: url("./imagem/vendas.png") no-repeat center / contain;
+}

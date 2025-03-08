@@ -1,0 +1,52 @@
+
+.paginainicial {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+
+    .inicio {
+        width: 100%;
+        height: 100%;
+        background-color: lightgray;
+        padding: 20px;
+
+        .textoinicial {
+            display: block;
+            font-size: 200%;
+            min-width: 350px;
+            width: 50%;
+            margin: auto;
+            text-align: center;
+        }
+    }
+
+    .meusprojetostitulo {
+        font-size: 200%;
+        font-weight: bold;
+        display: block;
+        margin: 20px auto 0 auto;
+    }
+
+    .meusprojetos {
+        width: 100%;
+        padding: 20px;
+        // background-color: lightcoral;
+            
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contato {
+        width: 100%;
+        padding: 20px 10px;
+        background-color: #202124;
+        color: #ffffff;
+        font-size: 120%;
+        text-align: center;
+    }
+}

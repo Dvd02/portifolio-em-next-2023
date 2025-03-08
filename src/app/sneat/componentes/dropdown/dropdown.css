@@ -1,0 +1,83 @@
+.container {
+    width: 20%;
+    height: 100%;
+
+    background-color: white;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 5px #00000021;
+}
+
+.logo {
+    color: #6d7e90;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.itens {
+    width: 100%;
+    padding-left: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes{
+    width: 245px;
+    color: #6d7e90;
+    padding: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botoes:hover{
+    width: 245px;
+    
+    color: #8486ff;
+    background-color: #8486ff55;
+
+    box-sizing: border-box;
+    border-right: 5px solid #393bce;
+}
+
+.itens label{
+    color: #6d7e90;
+    font-size: 12px;
+}
+
+.itens .imagem {
+    width: 25px;
+    aspect-ratio: 1;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.logo-sneat {
+    width: 40px;
+    aspect-ratio: 1;
+    margin-right: 5px;
+    background: url("./imagem/sneat.PNG") no-repeat center / contain;
+}
+
+.dashboard { background: url("./imagem/dashboard.PNG") no-repeat center / contain; }
+.layout { background: url("./imagem/layouts.PNG") no-repeat center / contain; }
+.configuracoes-conta { background: url("./imagem/configuracoes\ de\ conta.PNG") no-repeat center / contain; }
+.autenticacao { background: url("./imagem/autenticacao.PNG") no-repeat center / contain; }
+.misc { background: url("./imagem/misc.PNG") no-repeat center / contain; }
+.card { background: url("./imagem/cards.PNG") no-repeat center / contain; }
+.user { background: url("./imagem/interface\ de\ usuario.PNG") no-repeat center / contain; }
+.ui { background: url("./imagem/extender\ ui.PNG") no-repeat center / contain; }
+.boxicons { background: url("./imagem/boxicons.PNG") no-repeat center / contain; }

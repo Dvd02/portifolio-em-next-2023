@@ -1,0 +1,55 @@
+
+.pesquisa {
+    width: 96%;
+    height: 20px;
+
+    padding: 15px;
+    margin: auto;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesquisa .pesquisar {
+    aspect-ratio: 1;
+    height: 30px;
+
+    background: url("./imagem/lupa.PNG") no-repeat center / contain;
+}
+
+.pesquisa .input {
+    width: 80%;
+    height: 80%;
+
+    margin: 5px;
+
+    background-color: #00000000;
+    
+    font-size: 120%;
+    border: none;
+    outline: none;
+}
+
+.pesquisa .espacamento {
+    margin: auto;
+}
+
+.pesquisa .contagem-star {
+    height: 25px;
+    padding: 2px;
+}
+
+.pesquisa .avatar {
+    height: 30px;
+    aspect-ratio: 1;
+    
+    margin-left: 20px;
+
+    background: url("./imagem/avatar.PNG") no-repeat center / contain;
+    border-radius: 50%;
+}

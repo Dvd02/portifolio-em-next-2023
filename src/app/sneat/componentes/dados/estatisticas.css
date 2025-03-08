@@ -1,0 +1,137 @@
+
+.estatisticas {
+    width: calc(100% - 20px);
+    height: 65%;
+
+    box-sizing: border-box;
+
+    padding: 20px;
+    margin: 10px;
+
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+}
+
+.estatisticas * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.estatisticas .grafico {
+    width: 55%;
+    height: 80%;
+
+    background-color: lightblue;
+
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    
+    background: url("./imagens/dados.png") no-repeat center / contain;
+}
+
+.estatisticas .empresa {
+    height: 100%;
+    width: 40%;
+
+    background-color: white;
+    border-left: 1px solid black;
+    border-radius:  0 15px 15px 0;
+    
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.estatisticas .empresa .escolha-ano {
+    padding: 5px;
+    margin: 20px;
+
+    border: 2px solid #686bfd;
+    border-radius: 5px;
+}
+
+
+/* 
+.estatisticas .empresa .gradiente {
+    background: conic-gradient(from -180deg, transparent, blue);
+    border-radius: 50%;
+    position: relative;
+}
+
+.estatisticas .empresa .gradiente-fundo {
+    width: 115px;
+    aspect-ratio: 1;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.estatisticas .empresa .porcentagem {
+    border: 8px dashed #686bfd;
+    border-radius: 50%;
+    height: 110px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.estatisticas .empresa .porcentagem * {
+    font-weight: bold;
+    color: black
+}
+
+.estatisticas .empresa .porcentagem .valor {
+    font-size: 200%;
+}
+
+.estatisticas .empresa .outra-empresa {
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+
+.estatisticas .empresa .dinheiro {
+    display: flex;
+}
+
+.estatisticas .empresa .dinheiro .valor {
+    display: flex;
+    margin: 5px;
+}
+
+
+.estatisticas .empresa .dinheiro .reais .imagem {
+    background: url("./imagens/reais.png") no-repeat center / contain;
+}
+
+.estatisticas .empresa .dinheiro .credito .imagem {
+    background: url("./imagens/credito.png") no-repeat center / contain;
+}
+
+
+.estatisticas .empresa .dinheiro .valor .imagem {
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 7px;
+}
+
+.estatisticas .empresa .dinheiro .valor .dados {
+    margin-left: 5px;
+}
+
+.estatisticas .empresa .dinheiro .valor .dados .ano {
+    color: gray;
+}

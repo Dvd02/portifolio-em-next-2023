@@ -1,0 +1,40 @@
+
+.projeto {
+    min-width: 180px;
+    width: 180px;
+    max-width: 380px;
+    min-height: 300px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    // background-color: lightblue;
+    box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.5);
+    flex-grow: 1;
+
+    .tituloprojeto {
+        display: block;
+        width: max-content;
+        margin: auto;
+        // background-color: lightgreen;
+        color: black;
+    }
+
+    .imagemprojeto {
+        width: 100%;
+        aspect-ratio: 1.4;//16/9;
+        margin: 10px 0;
+        background: lightgray no-repeat center / contain;
+        // box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.5);
+        // background-color: lightgreen;
+    }
+
+    .sneat { background-image: url("./imagens/sneat.PNG"); background-color: transparent; }
+    .jogo { background-image: url("./imagens/jogo.PNG"); background-color: transparent; }
+    .vans { background-image: url("./imagens/vans.PNG"); background-color: transparent; }
+    .slime-friend { background-image: url("./imagens/slime\ friend.png"); background-color: transparent; }
+
+    .descricaoprojeto {
+        text-align: center;
+        // background-color: lightgreen;
+    }
+}

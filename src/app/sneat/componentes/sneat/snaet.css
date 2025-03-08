@@ -1,0 +1,32 @@
+
+* {
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+}
+
+.sneat {
+    min-width: 1300px;
+    min-height: 600px;
+    width: 1300px /*calc(100% - 30px)*/;
+    height: 600px /*calc(100% - 30px)*/;
+    
+    padding: 15px;
+    margin: auto;
+    
+    background-color: rgb(233, 233, 233);
+    
+    display: flex;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100%;
+}
+
+.informacoes {
+    width: calc(100% - 30px);
+    height: calc(95% - 30px);
+
+    margin: 15px;
+
+    display: flex;
+}

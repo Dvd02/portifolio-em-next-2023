@@ -1,0 +1,86 @@
+
+
+/* MENU */
+.menu{
+    width: 100vw;
+    height: 100vh;
+    background-color: #489551;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.botaoMenu {
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+
+/* console */
+.console {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    font-size: 2vmin;
+}
+
+/* TELA */
+.jogo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabuleiro {
+    display: flex;
+    flex-direction: column; 
+
+    height: 100vmin;
+    aspect-ratio: 1;
+
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.celula {
+    width: 100%;
+    height: 100%;
+    
+    background-color: #489551;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.a { background-image: url("./imagens/arvore-de-carvalho.png"); }
+.A { background-image: url("./imagens/arvore-de-pinheiro.png"); }
+.G { background-image: url("./imagens/grama.png"); }
+.p { background-image: url("./imagens/pedra.png"); }
+.b { background-image: url("./imagens/barro.png"); }
+.f { background-image: url("./imagens/fonte.png"); }
+.c { background-image: url("./imagens/casa.png"); }
+
+
+/* PERSONAGENS */
+.personagem_down { background: url("./imagens/cavaleiro-baixo.png") no-repeat center / contain;}
+.personagem_up { background: url("./imagens/cavaleiro-cima.png") no-repeat center / contain;}
+.personagem_right { background: url("./imagens/cavaleiro-direita.png") no-repeat center / contain;}     
+.personagem_left { background: url("./imagens/cavaleiro-esquerda.png") no-repeat center / contain;}
+.slime { background: url("./imagens/slime.png") no-repeat center / contain; }
