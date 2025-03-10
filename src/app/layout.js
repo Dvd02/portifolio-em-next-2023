@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-    title: 'Site',
-    description: 'site do Dvd em next',
+    title: 'Portifólio em next 2023',
+    description: 'Portifólio de projetos feitos em next no ano de 2023',
 }
 
 export default function RootLayout({ children }) {
