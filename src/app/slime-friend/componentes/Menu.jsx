@@ -12,7 +12,7 @@ export default function Menu(){
         {
             (cena == 'menu') ?
                 <div className={styles.menu}>
-                    <h1 className={styles.titulo}>Slime Friend 'v'</h1>
+                    <h1 className={styles.titulo}>Slime Friend</h1>
                     <button className={styles.botaoMenu} onClick={()=>{setCena('jogo')}}>Jogar</button>
                 </div>
             :

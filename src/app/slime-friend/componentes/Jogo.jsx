@@ -90,7 +90,7 @@ export default function Jogo({mapa}){
         return ()=>{
             document.removeEventListener("keydown", teclaPresionada)
         }
-    },[posicaoPlayer])
+    },[posicaoPlayer,teclaPresionada])
  
     return(
         <div className={styles.jogo}>
